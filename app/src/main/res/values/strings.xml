@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PromedioPeriodo</string>
+    <string name="txt_titulo">GPApp</string>
+    <!--<string name="txtView_desc">Para realizar el calculo del promedio del periodo por favor ingresar los datos del siguiente formulario:</string>-->
+    <string name="edit_doc">Documento</string>
+    <string name="edit_nombre">Nombre Completo</string>
+    <string name="edit_edad">Edad</string>
+    <string name="edit_tel">Telefono</string>
+    <string name="edit_direc">Direccion</string>
+    <string name="txt_mater">Notas de las materias</string>
+    <string name="edit_materia">Materia</string>
+    <string name="edit_nota">Nota</string>
+    <string name="imgBtn_desc">Informacion</string>
+    <string name="imgBtn_estad">Estadisticas</string>
+    <string name="btn_registrar">Registrarse</string>
+    <string name="txt_cantEstProcesados">Cantidad de estudiantes procesados:</string>
+    <string name="txt_cantEstGanan">Cantidad de estudiantes que ganan:</string>
+    <string name="txt_cantEstPierden">Cantidad de estudiantes que pierden:</string>
+    <string name="txt_cantEstRecuperan">Cantidad de estudiantes que pueden recuperar:</string>
+    <string name="txt_queEsGPApp">Que es GPApp?</string>
+    <string name="txt_gpappEs">GPApp es una aplicacion movil para el registro de los datos escolares de un estudiante y la obtencion de respuestas al ingresar las notas como seria el promedio y si aprobo la materia o no, y si tiene posibilidad de recuperar si es que consguio una nota mayor a 2.5, teniendo en cuenta que para aprobar el proemdio debe ser mayor a 3.5 sino pierde y no aprueba el periodo.</string>
+    <string name="txt_pasos">PASOS:</string>
+    <string name="txt_paso1">Paso 1: Al ingresar a la aplicacion seleccione el boton ingresar</string>
+    <string name="txt_paso2">Paso 2: Ingrese los datos que ahi le piden</string>
+    <string name="txt_paso3">Paso 3: Presione el boton Registrar. Se le presentara un mensaje con sus datos ingresados y el estado de su promedio, si aprobo, no aprobo y/o puede recuperar</string>
+    <string name="txt_extra">Si desea saber informacion general sobre los estudiantes registrados dirigase a la opcion estadisticas, puede acceder tanto en la pantalla principal como en la pantalla de registro</string>
+</resources>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/txt_titulo"
+    android:textSize="50sp"
+    android:layout_marginBottom="20dp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/edit_doc"
+        android:autofillHints="1092234559" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:autofillHints="Armando Esteban Quito"
+        android:hint="@string/edit_nombre" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:autofillHints="17"
+            android:hint="@string/edit_edad" />
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:autofillHints="3172942719"
+            android:hint="@string/edit_tel" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:autofillHints="B/ Chupamestepenco Mz 69 #3"
+        android:hint="@string/edit_direc" />
+</LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:text="@string/txt_mater"
+    android:layout_marginBottom="20dp"/>
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editTextMateria1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:autofillHints="Matematicas"
+            android:hint="@string/edit_materia"
+            android:paddingEnd="20dp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/editTextNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="4.5 ó 3"
+            android:layout_weight="1"
+            android:hint="@string/edit_nota"
+            android:inputType="numberDecimal"
+            android:layout_gravity="end"
+            android:layout_marginStart="60dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/editTextMateria2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="Matematicas"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:hint="@string/edit_materia" />
+
+        <EditText
+            android:id="@+id/editTextNota2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="4.5 ó 3"
+            android:layout_weight="1"
+            android:hint="@string/edit_nota"
+            android:inputType="numberDecimal"
+            android:layout_gravity="end"
+            android:layout_marginStart="60dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/editTextMateria3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="Matematicas"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:hint="@string/edit_materia" />
+
+        <EditText
+            android:id="@+id/editTextNota3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="4.5 ó 3"
+            android:layout_weight="1"
+            android:hint="@string/edit_nota"
+            android:inputType="numberDecimal"
+            android:layout_gravity="end"
+            android:layout_marginStart="60dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/editTextMateria4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="Matematicas"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:hint="@string/edit_materia" />
+
+        <EditText
+            android:id="@+id/editTextNota4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="4.5 ó 3"
+            android:layout_weight="1"
+            android:hint="@string/edit_nota"
+            android:inputType="numberDecimal"
+            android:layout_gravity="end"
+            android:layout_marginStart="60dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/editTextMateria5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="4.5 ó 3"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:hint="@string/edit_materia" />
+
+        <EditText
+            android:id="@+id/editTextNota5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="4.5 ó 3"
+            android:layout_weight="1"
+            android:hint="@string/edit_nota"
+            android:inputType="numberDecimal"
+            android:layout_gravity="end"
+            android:layout_marginStart="60dp"/>
+    </TableRow>
+</TableLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imgBtnInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/imgBtn_desc"
+            app:srcCompat="@drawable/ic_baseline_info_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintVertical_bias="0.8"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnEstadisticas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/imgBtn_estad"
+            app:srcCompat="@drawable/ic_baseline_equalizer_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintVertical_bias="0.8"/>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_registrar"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.2"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

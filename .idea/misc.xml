@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/drawable/ic_baseline_equalizer_24.xml" value="0.2005" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.2775" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/drawable/splash_backgroud.xml" value="0.2565" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout-land/activity_ayuda.xml" value="0.2310405643738977" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout-land/activity_estadisticas.xml" value="0.10609480812641084" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout-land/activity_registro.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout/activity_ayuda.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout/activity_estadisticas.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout/activity_registro.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/ADMIN HP/Documents/SENA/Android/Practica_Componentes_Basicos/app/src/main/res/layout/activity_splash.xml" value="0.19021739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
