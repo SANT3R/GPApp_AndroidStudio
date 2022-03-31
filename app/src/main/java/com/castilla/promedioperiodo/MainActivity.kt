@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                 response.launch(miIntent)
 //                startActivity(Intent(this,AyudaActivity::class.java))
             }
-            3->startActivity(Intent(this,EstadisticasActivity::class.java))
+            3->startActivity(Intent(this,AyudaActivity::class.java))
         }
     }
 }
