@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.promedioperiodo.Estudiante
@@ -64,6 +65,12 @@ class RegistroActivity : AppCompatActivity() {
 
         var btnRegistro:Button=findViewById(R.id.btnRegistrar)
         btnRegistro.setOnClickListener { validarCampos() }
+
+        var btnEstadisticas:ImageButton=findViewById(R.id.imgBtnEstadisticas)
+        btnEstadisticas.setOnClickListener{ startActivity(Intent(this, EstadisticasActivity::class.java)) }
+
+        var btnInfo:ImageButton=findViewById(R.id.imgBtnInfo)
+        btnInfo.setOnClickListener { startActivity(Intent(this, AyudaActivity::class.java)) }
     }
 
     private fun validarCampos(){
